@@ -1,0 +1,26 @@
+{
+  "name": "lotty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "presets": [
+      "neutrino-preset-node",
+      "neutrino-preset-standard-style/src/index.js"
+    ]
+  },
+  "scripts": {
+    "build": "neutrino build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "neutrino": "^4.0.1",
+    "neutrino-preset-node": "^4.0.1"
+  },
+  "standard": {
+    "globals": [
+      "globalVar"
+    ]
+  }
+}
