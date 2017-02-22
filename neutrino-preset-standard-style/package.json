@@ -1,10 +1,33 @@
 {
-  "name": "neutrino-preset-standard-style",
-  "version": "0.0.1",
+  "name": "neutrino-preset-airbnb-base",
+  "version": "4.0.1",
+  "description": "Neutrino preset for adding standard-js's base JS ESLint config",
   "main": "src/index.js",
-  "license": "MIT",
+  "keywords": [
+    "neutrino",
+    "neutrino-preset",
+    "standardjs",
+    "eslint"
+  ],
+  "author": "Marco Casula <mc@clickbit.net>",
+  "license": "MPL-2.0",
+  "repository": "mozilla-neutrino/neutrino-dev",
   "dependencies": {
-    "standard": "^8.6.0",
-    "standard-loader": "https://github.com/GabrielDuarteM/standard-loader.git"
-  }
+    "babel-eslint": "^7.1.1",
+    "eslint": "~3.15.0",
+    "eslint-config-standard": "7.0.0-beta.0",
+    "eslint-config-standard-jsx": "3.3.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-babel": "^4.0.1",
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-react": "~6.9.0",
+    "eslint-plugin-standard": "~2.0.1",
+    "neutrino-lint-base": "^4.1.0",
+    "standard-engine": "~5.4.0"
+  },
+  "peerDependencies": {
+    "neutrino": "^4.0.0"
+  },
+  "homepage": "https://neutrino.js.org",
+  "bugs": "https://github.com/mozilla-neutrino/neutrino-dev/issues"
 }
