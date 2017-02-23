@@ -10,7 +10,7 @@ const MODULES = path.join(__dirname, '../node_modules')
 module.exports = (neutrino) => {
   lint(neutrino)
   const { config } = neutrino
-  const { standard } = pkg
+  const { standard = {} } = pkg
   const options = merge({
     plugins: ['babel'],
     baseConfig: {
